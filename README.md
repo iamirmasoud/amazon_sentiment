@@ -1,8 +1,10 @@
 # Sentiment Analysis on Amazon Reviews Dataset in PyTorch
 
 ## Project Overview
-In this project, I’ll train LSTM networks on [Amazon Customer Reviews Dataset](https://www.kaggle.com/bittlingmayer/amazonreviews) to predict sentiment (Positive/Negative) of a review.
+In this project, I’ll train LSTM networks on [Amazon Customer Reviews Dataset](https://www.kaggle.com/bittlingmayer/amazonreviews) to predict sentiment (Positive/Negative) of a review. You can run the codes on GPU to speed up the training process significantly. You can also use [My Notebook on Google Colab](https://colab.research.google.com/drive/1pFduf8iVOuFGm9-nkPxQEm3GniPhEBzw?usp=sharing) if your hardware is not powerful enough.
 
+
+https://colab.research.google.com/drive/1pFduf8iVOuFGm9-nkPxQEm3GniPhEBzw?usp=sharing
 ---
 
 ## Preparing the environment
@@ -45,7 +47,7 @@ jupyter notebook
 
 ### Data
 
-Please download the [Amazon Customer Reviews Dataset](https://www.kaggle.com/bittlingmayer/amazonreviews) from Kaggle and put the `.bz2` files under the `data` subdirectory. The dataset contains a total of 4 million reviews with each review labeled to be of either positive or negative sentiment. 
+Please download the [Amazon Customer Reviews Dataset](https://www.kaggle.com/bittlingmayer/amazonreviews) from Kaggle and put the `.bz2` files under the `data` subdirectory. The dataset contains a total of 4 million reviews with each review labeled to be of either positive or negative sentiment. However, I will only be using 100k reviews in this implementation to speed things up. Feel free to run it yourself with the entire dataset if you have the time and computing capacity. 
 
 
 ## Jupyter Notebooks
