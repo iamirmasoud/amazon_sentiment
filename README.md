@@ -3,8 +3,6 @@
 ## Project Overview
 In this project, I’ll train LSTM networks on [Amazon Customer Reviews Dataset](https://www.kaggle.com/bittlingmayer/amazonreviews) to predict sentiment (Positive/Negative) of a review. You can run the codes on GPU to speed up the training process significantly. You can also use [My Notebook on Google Colab](https://colab.research.google.com/drive/1pFduf8iVOuFGm9-nkPxQEm3GniPhEBzw?usp=sharing) if your hardware is not powerful enough.
 
-
-https://colab.research.google.com/drive/1pFduf8iVOuFGm9-nkPxQEm3GniPhEBzw?usp=sharing
 ---
 
 ## Preparing the environment
