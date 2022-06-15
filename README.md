@@ -62,7 +62,7 @@ In this notebook, I'll construct a Sentiment Analysis model that can be trained 
 
 ## Results
 
-We managed to achieve an accuracy of **93.8%** with a simple LSTM architecture! This shows the effectiveness of LSTM in handling such sequential tasks.
+I achieved an accuracy of **91.77%** on the test set with a simple LSTM architecture! This shows the effectiveness of LSTM in handling such sequential tasks.
 
 This result was achieved with just a few simple layers and without any hyperparameter tuning. There are so many other improvements that can be made to increase the model's effectiveness.
 
